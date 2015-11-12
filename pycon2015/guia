@@ -1,0 +1,45 @@
+Porque Debuguear? 
+    - Explorar codigo
+    - Entender codigo
+    - Si entiendo, puedo llegar a resolver
+
+Que es PDB?
+    - Interactive tool
+    - Como invocarlo (python -m pdb foo.py y import pdb.set_trace())
+        - Comandos basicos
+        - Navegando el stack
+    - Help
+        - ?
+        - help help
+        - help list
+        - import sys; help(sys)
+        - import sys; print(sys.__doc__)
+    - Mostrar el contexto actual
+        - list; l; l 3,9
+    - Repetir el ultimo comando (solo preciona enter)
+    - Examinar variables
+        - p
+        - pp to pretty print
+    - Pasar a la linea siguiente
+        - next; n
+    - Pasar dentro de una funcion
+        - step; s
+    - Pasar al final de un loop
+        - until
+    - Pasar al final de una funcion
+        - return; r
+    - Breakpoints
+        - break; b; lista los breakpoints
+        - b 10; setea un breakpoint en la linea 10
+        - clear; cl 10; limpia el breakpoint
+        - continue; c; ir hasta el siguiente breakpoint o finalizar
+        - breakpoints condicionales; b 12, foo == value 
+    - pdb++
+
+
+Instrucciones PDB
+    - Ejemplos
+
+Instrucciones rPDB
+    - Ejemplo con web server (gunicorn?!)
+
